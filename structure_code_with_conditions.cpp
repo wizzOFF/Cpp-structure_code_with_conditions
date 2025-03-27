@@ -90,11 +90,12 @@ using namespace std;
 int main()
 {
     bool adulte(true);
+    int nbEnfants = 1
     
     // if (adulte == true)
-    if (adulte)
+    if (adulte and nbEnfants >= 1)
     {
-        cout << "Vous etes un adulte !" << endl;
+        cout << "Vous etes un parent adulte !" << endl;
     }
 
     return 0;
