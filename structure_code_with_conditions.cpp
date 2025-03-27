@@ -51,7 +51,7 @@ int main()
     return 0;
 }
 */
-
+/*
 #include <iostream>
 
 using namespace std;
@@ -77,6 +77,23 @@ int main()
         default:
             cout << "Votre budget croquettes doit etre important" << endl;
             break;
+    }
+
+    return 0;
+}
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    bool adulte(true);
+    
+    if (adulte == true)
+    {
+        cout << "Vous etes un adulte !" << endl;
     }
 
     return 0;
