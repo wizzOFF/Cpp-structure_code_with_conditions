@@ -93,9 +93,10 @@ int main()
     int nbEnfants = 1
     
     // if (adulte == true)
-    if (adulte and nbEnfants >= 1)
+    // if (adulte and nbEnfants >= 1)
+    if (nbEnfants == 1 or nbEnfants > 1)
     {
-        cout << "Vous etes un parent adulte !" << endl;
+        cout << "Vous etes un parent !" << endl;
     }
 
     return 0;
